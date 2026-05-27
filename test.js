@@ -15,5 +15,5 @@ console.log("Multiply t test pass")
 process.exti(1)
 }
 
-
+console.log("all tests are pass")
 
