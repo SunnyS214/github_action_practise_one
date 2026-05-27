@@ -1,0 +1,11 @@
+name: todays first pipeline
+on:
+  push:
+    branch: [ main ]
+jobs:
+  test: 
+    runs-on: ubuntu-latest
+    
+    steps: 
+       - name: bring the code
+         run: actions/checkout@v3
