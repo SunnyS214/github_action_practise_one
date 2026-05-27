@@ -1,7 +1,7 @@
 name: todays first pipeline
 on:
   push:
-    branch: [ main ]
+    branches: [ main ]
 
 jobs:
   test:
@@ -14,11 +14,11 @@ jobs:
        - name: node setup karo ubuntu pe
          uses: actions/setup-node@v3
          with:
-             node-versio: "18"
+             node-version: "18"
 
-      - name: package.json install karo
-        run: npm install
+       - name: package.json install karo
+         run: npm install
 
-      - name: Tests chalao
-        run: npm test
+       - name: Tests chalao
+         run: npm test
 
