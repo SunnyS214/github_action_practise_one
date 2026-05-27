@@ -1,0 +1,6 @@
+{
+"name": "scenerio1",
+"scripts": {
+"test": "node test.js"
+}
+}
